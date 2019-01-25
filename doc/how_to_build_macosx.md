@@ -11,6 +11,7 @@
 - Qt
   - http://download.qt.io/official_releases/qt/5.9/5.9.2/
     - qt-opensource-mac-x64-5.9.2.dmg
+  - check "Sources" and "Qt Script" during installation.
 - boost
   - http://www.boost.org/users/history/version_1_55_0.html (or later, though only 1.55.0 is supported)
 
@@ -71,13 +72,13 @@ $ cd ../lzo
 $ cp -r 2.03/include/lzo driver
 ```
 
-### 6. Build Everything Together
+### 7. Build Everything Together
 
 ```
 $ cd ../../toonz
 $ mkdir build
 $ cd build
-  CMAKE_PREFIX_PATH=~/Qt5.9.2/5.9.2/clang_64 cmake ../sources
+$ CMAKE_PREFIX_PATH=~/Qt5.9.2/5.9.2/clang_64 cmake ../sources
 $ make
 ```
 
