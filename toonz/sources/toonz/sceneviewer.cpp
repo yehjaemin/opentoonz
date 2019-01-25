@@ -56,7 +56,6 @@
 #include "toonz/cleanupparameters.h"
 #include "toonz/toonzimageutils.h"
 #include "toonz/txshleveltypes.h"
-#include "toonz/preferences.h"
 #include "subcameramanager.h"
 
 // TnzCore includes
@@ -2189,6 +2188,7 @@ void SceneViewer::onLevelChanged() {
  * for Ink&Paint work properly
  */
 void SceneViewer::onLevelSwitched() {
+  invalidateToolStatus();
   TApp *app        = TApp::instance();
   TTool *tool      = app->getCurrentTool()->getTool();
   TXshLevel *level = app->getCurrentLevel()->getLevel();

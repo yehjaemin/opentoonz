@@ -374,6 +374,92 @@ Stop it or wait for its completion before removing it.</source>
     </message>
 </context>
 <context>
+    <name>BoardSettingsPopup</name>
+    <message>
+        <source>Clapperboard Settings</source>
+        <translation>场记板设定</translation>
+    </message>
+    <message>
+        <source>Load Preset</source>
+        <translation>加载预设</translation>
+    </message>
+    <message>
+        <source>Save as Preset</source>
+        <translation>保存为预设</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>关闭</translation>
+    </message>
+    <message>
+        <source>Duration (frames):</source>
+        <translation>长度 (帧数):</translation>
+    </message>
+    <message>
+        <source>Text</source>
+        <translation>文本</translation>
+    </message>
+    <message>
+        <source>Project name</source>
+        <translation>项目名称</translation>
+    </message>
+    <message>
+        <source>Scene name</source>
+        <translation>场景名称</translation>
+    </message>
+    <message>
+        <source>Duration : Frame</source>
+        <translation>长度 : 帧</translation>
+    </message>
+    <message>
+        <source>Duration : Sec + Frame</source>
+        <translation>长度 : 秒 + 帧</translation>
+    </message>
+    <message>
+        <source>Duration : HH:MM:SS:FF</source>
+        <translation>长度 : HH:MM:SS:FF</translation>
+    </message>
+    <message>
+        <source>Current date</source>
+        <translation>当前日期</translation>
+    </message>
+    <message>
+        <source>Current date and time</source>
+        <translation>当期日期和时间</translation>
+    </message>
+    <message>
+        <source>User name</source>
+        <translation>用户名</translation>
+    </message>
+    <message>
+        <source>Scene location : Aliased path</source>
+        <translation>场景位置 : 别名路径</translation>
+    </message>
+    <message>
+        <source>Scene location : Full path</source>
+        <translation>场景位置 : 完整路径</translation>
+    </message>
+    <message>
+        <source>Output location : Aliased path</source>
+        <translation>输出位置 : 别名路径</translation>
+    </message>
+    <message>
+        <source>Output location : Full path</source>
+        <translation>输出位置 : 完整路径</translation>
+    </message>
+    <message>
+        <source>Image</source>
+        <translation>图像</translation>
+    </message>
+</context>
+<context>
+    <name>BoardView</name>
+    <message>
+        <source>Please set the duration more than 0 frame first, or the clapperboard settings will not be saved in the scene at all!</source>
+        <translation>请先把长度设置为多于 0 帧，否则场记板的设置不能在场景里保存！</translation>
+    </message>
+</context>
+<context>
     <name>BrightnessAndContrastPopup</name>
     <message>
         <source>Brightness and Contrast</source>
@@ -2268,6 +2354,28 @@ contain the dpi information, then the current camera dpi will be used.
         <source>Drag to Extend Onion Skin, Double Click to Toggle All</source>
         <translation>[拖动]以扩展洋葱皮，[双击]以切换所有洋葱皮</translation>
     </message>
+    <message>
+        <source>Click to Reset Shift &amp; Trace Markers to Neighbor Frames
+Hold F2 Key on the Viewer to Show This Frame Only</source>
+        <translation>点击以重置位移和临摹的标记到相邻的帧
+在查看器中按下 F2 键只显示此帧</translation>
+    </message>
+    <message>
+        <source>Click to Hide This Frame from Shift &amp; Trace
+Hold F1 Key on the Viewer to Show This Frame Only</source>
+        <translation>点击以隐藏此帧在位移和临摹的显示
+在查看器中按下 F1 键只显示此帧</translation>
+    </message>
+    <message>
+        <source>Click to Hide This Frame from Shift &amp; Trace
+Hold F3 Key on the Viewer to Show This Frame Only</source>
+        <translation>点击以隐藏此帧在位移和临摹中的显示
+在查看器中按下 F3 键只显示此帧</translation>
+    </message>
+    <message>
+        <source>Click to Move Shift &amp; Trace Marker</source>
+        <translation>点击以移动位移和临摹标记</translation>
+    </message>
 </context>
 <context>
     <name>FilmstripFrames</name>
@@ -2532,6 +2640,76 @@ Do you want to overwrite it?</source>
     <message>
         <source>It is not possible to delete %1.</source>
         <translation>无法删除 %1。</translation>
+    </message>
+</context>
+<context>
+    <name>ItemInfoView</name>
+    <message>
+        <source>Bold</source>
+        <translation>粗体</translation>
+    </message>
+    <message>
+        <source>Italic</source>
+        <translation>斜体</translation>
+    </message>
+    <message>
+        <source>Ignore</source>
+        <translation>忽略</translation>
+    </message>
+    <message>
+        <source>Keep</source>
+        <translation>保留</translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation>名称:</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation>类型:</translation>
+    </message>
+    <message>
+        <source>Path:</source>
+        <translation>路径:</translation>
+    </message>
+    <message>
+        <source>Aspect Ratio:</source>
+        <translation>长宽比:</translation>
+    </message>
+    <message>
+        <source>Font:</source>
+        <translation>字体:</translation>
+    </message>
+    <message>
+        <source>Max Size:</source>
+        <translation>最大尺寸:</translation>
+    </message>
+    <message>
+        <source>No item selected.</source>
+        <translation>无项目被选上.</translation>
+    </message>
+    <message>
+        <source>Item</source>
+        <translation>项目</translation>
+    </message>
+</context>
+<context>
+    <name>ItemListView</name>
+    <message>
+        <source>Add</source>
+        <translation>添加</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>删除</translation>
+    </message>
+    <message>
+        <source>Move Up</source>
+        <translation>向上移</translation>
+    </message>
+    <message>
+        <source>Move Down</source>
+        <translation>向下移</translation>
     </message>
 </context>
 <context>
@@ -3030,6 +3208,13 @@ Please use the frame numbers for reference.</source>
     <message>
         <source>Invalid data file.</source>
         <translation>无效的数据文件。</translation>
+    </message>
+</context>
+<context>
+    <name>LoadBoardPresetFilePopup</name>
+    <message>
+        <source>Load Clapperboard Settings Preset</source>
+        <translation>加载场记板预设</translation>
     </message>
 </context>
 <context>
@@ -5159,7 +5344,7 @@ Please use the frame numbers for reference.</source>
     </message>
     <message>
         <source>Flip Viewer Horiontally</source>
-        <translation>水平翻转查看器</translation>
+        <translation type="vanished">水平翻转查看器</translation>
     </message>
     <message>
         <source>Flip Viewer Vertically</source>
@@ -5212,6 +5397,50 @@ Please use the frame numbers for reference.</source>
     <message>
         <source>Active Axis - All</source>
         <translation>当前轴 - 全部</translation>
+    </message>
+    <message>
+        <source>&amp;Timeline</source>
+        <translation>时间轴(&amp;T)</translation>
+    </message>
+    <message>
+        <source>Linear Interpolation</source>
+        <translation>线性插值</translation>
+    </message>
+    <message>
+        <source>Speed In / Speed Out Interpolation</source>
+        <translation>速入/速出插值</translation>
+    </message>
+    <message>
+        <source>Ease In / Ease Out Interpolation</source>
+        <translation>缓入/缓出插值</translation>
+    </message>
+    <message>
+        <source>Ease In / Ease Out (%) Interpolation</source>
+        <translation>缓入/缓出 (%) 插值</translation>
+    </message>
+    <message>
+        <source>Exponential Interpolation</source>
+        <translation>指数插值</translation>
+    </message>
+    <message>
+        <source>Expression Interpolation</source>
+        <translation>表达式插值</translation>
+    </message>
+    <message>
+        <source>File Interpolation</source>
+        <translation>文件方式插值</translation>
+    </message>
+    <message>
+        <source>Constant Interpolation</source>
+        <translation>常数插值</translation>
+    </message>
+    <message>
+        <source>Separate Colors...</source>
+        <translation>分离颜色...</translation>
+    </message>
+    <message>
+        <source>Flip Viewer Horizontally</source>
+        <translation>水平翻转查看器</translation>
     </message>
 </context>
 <context>
@@ -5791,6 +6020,32 @@ What do you want to do?</source>
     <message>
         <source>Render</source>
         <translation>渲染</translation>
+    </message>
+    <message>
+        <source>Add Clapperboard</source>
+        <translation>添加场记板</translation>
+    </message>
+    <message>
+        <source>Edit Clapperboard...</source>
+        <translation>编辑场记板...</translation>
+    </message>
+    <message>
+        <source>Save current output settings.
+The parameters to be saved are:
+- Camera settings
+- Project folder to be saved in
+- File format
+- File options
+- Resample Balance
+- Channel width</source>
+        <translation>保存当前输出设定.
+被保存的参数有:
+--摄影机设定
+--用来保存的项目文件夹
+--文件格式
+--文件选项
+--重采样平衡
+通道宽度</translation>
     </message>
 </context>
 <context>
@@ -7239,7 +7494,7 @@ if both are possible on coding file path.</source>
     </message>
     <message>
         <source>Weight *:</source>
-        <translation>粗细 *:</translation>
+        <translation type="vanished">粗细 *:</translation>
     </message>
     <message>
         <source>OpenToonz can use FFmpeg for additional file formats.
@@ -7346,6 +7601,55 @@ Also the initial output destination for new scenes will be set to $scenefolder a
     <message>
         <source>Compact</source>
         <translation>兼容</translation>
+    </message>
+    <message>
+        <source>Saving</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Use Onion Skin Colors for Reference Drawings of Shift and Trace</source>
+        <translation>使用洋葱皮颜色显示位移和临摹的参考绘图</translation>
+    </message>
+    <message>
+        <source>Tablet Settings</source>
+        <translation>绘图板设定</translation>
+    </message>
+    <message>
+        <source>Enable Windows Ink Support* (EXPERIMENTAL)</source>
+        <translation>打开 Windows Ink 支持* (试验功能)</translation>
+    </message>
+    <message>
+        <source>Constant</source>
+        <translation>常数</translation>
+    </message>
+    <message>
+        <source>Exponential</source>
+        <translation>指数</translation>
+    </message>
+    <message>
+        <source>Expression </source>
+        <translation>表达式 </translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>文件方式</translation>
+    </message>
+    <message>
+        <source>Style *:</source>
+        <translation>样式*：</translation>
+    </message>
+    <message>
+        <source>Matte color is used for background when overwriting raster levels with transparent pixels
+in non alpha-enabled image format.</source>
+        <translation>当覆写带透明像素，非透明通道打开的图像格式的光栅层级时，使用不透明颜色做背景。</translation>
+    </message>
+    <message>
+        <source>Matte color: </source>
+        <translation></translation>
+    </message>
+    <message>
+        <source>Current Column Color:</source>
+        <translation>当前列的颜色:</translation>
     </message>
 </context>
 <context>
@@ -8203,7 +8507,7 @@ Some levels have not been loaded because their version is not supported</source>
     </message>
     <message>
         <source>The Revert to Last Saved command is not supported for the current selection.</source>
-        <translation>当前选区不支持复原到最后保存的命令。</translation>
+        <translation type="vanished">当前选区不支持复原到最后保存的命令。</translation>
     </message>
     <message>
         <source>The selected column is empty.</source>
@@ -8685,19 +8989,19 @@ Are you sure to </source>
     </message>
     <message>
         <source>Inbetween  : Level %1,  </source>
-        <translation>过渡帧  : 层级 %1</translation>
+        <translation>过渡帧  : 层级 %1  </translation>
     </message>
     <message>
         <source>Paste Column :  </source>
-        <translation>粘贴列 : </translation>
+        <translation>粘贴列 :  </translation>
     </message>
     <message>
         <source>Delete Column :  </source>
-        <translation>删除列 : </translation>
+        <translation>删除列 :  </translation>
     </message>
     <message>
         <source>Insert Column :  </source>
-        <translation>插入列 : </translation>
+        <translation>插入列 :  </translation>
     </message>
     <message>
         <source>Resequence :  Col%1</source>
@@ -9003,7 +9307,7 @@ What would you like to do? </source>
     </message>
     <message>
         <source> Anyway</source>
-        <translation>不管</translation>
+        <translation> 不管</translation>
     </message>
     <message>
         <source>This scene is incompatible with pixels only mode of the current OpenToonz version.
@@ -9243,6 +9547,68 @@ Allow duplicate?</source>
     <message>
         <source>Nothing to replace: no cells or columns selected.</source>
         <translation>没有可替换的: 没有帧格或者列被选中。</translation>
+    </message>
+    <message>
+        <source>Couldn&apos;t load %1</source>
+        <translation>不能加载%1</translation>
+    </message>
+    <message>
+        <source>Apply Antialias</source>
+        <translation>应用消除锯齿</translation>
+    </message>
+    <message>
+        <source>The Reload command is not supported for the current selection.</source>
+        <translation>重载命令不支持当前的选择。</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>错误</translation>
+    </message>
+    <message>
+        <source>No Palette loaded.</source>
+        <translation>无调色板被加载。</translation>
+    </message>
+    <message>
+        <source>A separation task is in progress! wait until it stops or cancel it</source>
+        <translation>另外一个任务在处理中！等待直到它停止或被取消</translation>
+    </message>
+    <message>
+        <source>Duplicate Frame in XSheet</source>
+        <translation>在摄影表复制帧</translation>
+    </message>
+    <message>
+        <source>Please enable &quot;Sync Level Strip Drawing Number Changes with the XSheet&quot; preference option
+to use the duplicate command in the xsheet / timeline.</source>
+        <translation>要在摄影表/时间轴上使用复制命令，
+请启用“与摄影表同步层级条绘图编号的变动”首选项。</translation>
+    </message>
+    <message>
+        <source>Please select only one layer to duplicate a frame.</source>
+        <translation>请只选一个层来复制一个帧。</translation>
+    </message>
+    <message>
+        <source>Please select only one frame to duplicate.</source>
+        <translation>请只选择一个帧来复制。</translation>
+    </message>
+    <message>
+        <source>Timeline</source>
+        <translation>时间轴</translation>
+    </message>
+    <message>
+        <source>The qualifier %1 is not a valid key name. Skipping.</source>
+        <translation>修饰符 %1 不是有效的键名。跳过。</translation>
+    </message>
+    <message>
+        <source>Clear All Onion Skin Markers</source>
+        <translation>清理全部洋葱皮标记器</translation>
+    </message>
+    <message>
+        <source>Clear All Fixed Onion Skin Markers</source>
+        <translation>清理全部固定的洋葱皮标记器</translation>
+    </message>
+    <message>
+        <source>Clear All Relative Onion Skin Markers</source>
+        <translation>清理全部相关的洋葱皮标记器</translation>
     </message>
 </context>
 <context>
@@ -9990,7 +10356,7 @@ The audio file will not be included in the rendered clip.</source>
     <name>SVNTimeline</name>
     <message>
         <source>Version Control: Timeline </source>
-        <translation>版本控制: 时间轴</translation>
+        <translation>版本控制: 时间轴 </translation>
     </message>
     <message>
         <source>Getting file history...</source>
@@ -10151,7 +10517,7 @@ The audio file will not be included in the rendered clip.</source>
     </message>
     <message>
         <source>Get And Edit </source>
-        <translation>获取并编辑</translation>
+        <translation>获取并编辑 </translation>
     </message>
     <message>
         <source>Edit</source>
@@ -10233,6 +10599,13 @@ Please commit or revert changes first.</source>
     <message>
         <source>Updating to their items...</source>
         <translation>正在更新到它们的项目...</translation>
+    </message>
+</context>
+<context>
+    <name>SaveBoardPresetFilePopup</name>
+    <message>
+        <source>Save Clapperboard Settings As Preset</source>
+        <translation>保存场记板设定为预设</translation>
     </message>
 </context>
 <context>
@@ -10639,6 +11012,172 @@ Please commit or revert changes first.</source>
     <message>
         <source> (Flipped)</source>
         <translation> (已翻转)</translation>
+    </message>
+</context>
+<context>
+    <name>SeparateColorsPopup</name>
+    <message>
+        <source>Auto</source>
+        <translation>自动</translation>
+    </message>
+    <message>
+        <source>Preview</source>
+        <translation>预览</translation>
+    </message>
+    <message>
+        <source>Separate</source>
+        <translation>分离</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>关闭</translation>
+    </message>
+    <message>
+        <source>Sub Color 3:</source>
+        <translation>子颜色3:</translation>
+    </message>
+    <message>
+        <source>Alpha Matting</source>
+        <translation>透明度抠图</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>主</translation>
+    </message>
+    <message>
+        <source>Sub1</source>
+        <translation>子1</translation>
+    </message>
+    <message>
+        <source>Sub2</source>
+        <translation>子2</translation>
+    </message>
+    <message>
+        <source>Sub3</source>
+        <translation>子3</translation>
+    </message>
+    <message>
+        <source>Pick Color</source>
+        <translation>拾取颜色</translation>
+    </message>
+    <message>
+        <source>Show Mask</source>
+        <translation>显示遮罩</translation>
+    </message>
+    <message>
+        <source>Show Alpha</source>
+        <translation>显示透明度</translation>
+    </message>
+    <message>
+        <source>Preview Frame:</source>
+        <translation>上一帧:</translation>
+    </message>
+    <message>
+        <source>Paper Color:</source>
+        <translation>纸张颜色:</translation>
+    </message>
+    <message>
+        <source>Main Color:</source>
+        <translation>主颜色:</translation>
+    </message>
+    <message>
+        <source>Sub Color 1:</source>
+        <translation>子颜色1:</translation>
+    </message>
+    <message>
+        <source>Sub Color 2:</source>
+        <translation>子颜色2:</translation>
+    </message>
+    <message>
+        <source>Sub Adjust:</source>
+        <translation>子调整:</translation>
+    </message>
+    <message>
+        <source>Border Smooth:</source>
+        <translation>边框平滑:</translation>
+    </message>
+    <message>
+        <source>Mask Threshold:</source>
+        <translation>遮罩阀值:</translation>
+    </message>
+    <message>
+        <source>Mask Radius:</source>
+        <translation>遮罩半径:</translation>
+    </message>
+    <message>
+        <source>Start:</source>
+        <translation>开始:</translation>
+    </message>
+    <message>
+        <source>End:</source>
+        <translation>结束:</translation>
+    </message>
+    <message>
+        <source>Format:</source>
+        <translation>格式:</translation>
+    </message>
+    <message>
+        <source>Save in:</source>
+        <translation>保存位置:</translation>
+    </message>
+    <message>
+        <source>File Suffix:</source>
+        <translation>文件后缀:</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>Separate by colors ... </source>
+        <translation>按颜色分离 ... </translation>
+    </message>
+    <message>
+        <source>Separate 1 Level</source>
+        <translation>分离1层级</translation>
+    </message>
+    <message>
+        <source>Separate %1 Levels</source>
+        <translation>分离 %1 层级</translation>
+    </message>
+    <message>
+        <source>Critical</source>
+        <translation>紧急</translation>
+    </message>
+    <message>
+        <source>Failed to access the destination folder!</source>
+        <translation>访问目标文件夹失败！</translation>
+    </message>
+    <message>
+        <source>Separating %1</source>
+        <translation>正在分离 %1</translation>
+    </message>
+    <message>
+        <source>Converting level %1 of %2: %3</source>
+        <translation>%1 / %2 正在转换层级: %3</translation>
+    </message>
+</context>
+<context>
+    <name>SeparateSwatch</name>
+    <message>
+        <source>Sub Color 3</source>
+        <translation>子颜色3</translation>
+    </message>
+    <message>
+        <source>Original</source>
+        <translation>源</translation>
+    </message>
+    <message>
+        <source>Main Color</source>
+        <translation>主颜色</translation>
+    </message>
+    <message>
+        <source>Sub Color 1</source>
+        <translation>子颜色1</translation>
+    </message>
+    <message>
+        <source>Sub Color 2</source>
+        <translation>子颜色2</translation>
     </message>
 </context>
 <context>
@@ -12095,6 +12634,10 @@ Please refer to the user guide for details.</source>
         <source>Filter:</source>
         <translation>过滤器:</translation>
     </message>
+    <message>
+        <source>Opacity:</source>
+        <translation>不透明性:</translation>
+    </message>
 </context>
 <context>
     <name>XsheetGUI::NoteArea</name>
@@ -12113,6 +12656,22 @@ Please refer to the user guide for details.</source>
     <message>
         <source>3sec Sheet</source>
         <translation>3秒表</translation>
+    </message>
+    <message>
+        <source>Toggle Xsheet/Timeline</source>
+        <translation>开关摄影表/时间轴</translation>
+    </message>
+    <message>
+        <source>Add New Memo</source>
+        <translation>添加新备忘</translation>
+    </message>
+    <message>
+        <source>Previous Memo</source>
+        <translation>前一个备忘</translation>
+    </message>
+    <message>
+        <source>Next Memo</source>
+        <translation>下一个备忘</translation>
     </message>
 </context>
 <context>
@@ -12187,6 +12746,35 @@ Please refer to the user guide for details.</source>
     <message>
         <source>Set Auto Markers</source>
         <translation>设置自动标注</translation>
+    </message>
+    <message>
+        <source>Click to Reset Shift &amp; Trace Markers to Neighbor Frames
+Hold F2 Key on the Viewer to Show This Frame Only</source>
+        <translation>点击以重置位移和临摹的标记为相邻的帧
+在查看器中按下 F2 键只显示此帧</translation>
+    </message>
+    <message>
+        <source>Click to Hide This Frame from Shift &amp; Trace
+Hold F1 Key on the Viewer to Show This Frame Only</source>
+        <translation>点击以隐藏此帧在位移和临摹中的显示
+在查看器中按下 F1 键只显示此帧</translation>
+    </message>
+    <message>
+        <source>Click to Hide This Frame from Shift &amp; Trace
+Hold F3 Key on the Viewer to Show This Frame Only</source>
+        <translation>点击以隐藏此帧在位移和临摹中的显示
+在查看器中按下 F3 键只显示此帧</translation>
+    </message>
+    <message>
+        <source>Click to Move Shift &amp; Trace Marker</source>
+        <translation>点击以移动位移和临摹的标记</translation>
+    </message>
+</context>
+<context>
+    <name>XsheetGUI::SoundColumnPopup</name>
+    <message>
+        <source>Volume:</source>
+        <translation>音量:</translation>
     </message>
 </context>
 <context>

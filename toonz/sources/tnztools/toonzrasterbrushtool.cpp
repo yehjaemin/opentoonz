@@ -1133,6 +1133,7 @@ void ToonzRasterBrushTool::onDeactivate() {
   if (m_tileSaver) {
     bool isValid = m_enabled && m_active;
     m_enabled    = false;
+    m_active     = false;
     if (isValid) {
       finishRasterBrush(m_mousePos,
                         1); /*-- 最後のストロークの筆圧は1とする --*/
@@ -1474,10 +1475,12 @@ void ToonzRasterBrushTool::leftButtonUp(const TPointD &pos,
                                         const TMouseEvent &e) {
   bool isValid = m_enabled && m_active;
   m_enabled    = false;
+  m_active     = false;
   if (!isValid) {
     return;
   }
-  finishRasterBrush(pos, e.m_pressure);
+  double pressure = m_pressure.getValue() && e.isTablet() ? e.m_pressure : 0.5;
+  finishRasterBrush(pos, pressure);
 }
 
 //---------------------------------------------------------------------------------------------------------------
@@ -1487,6 +1490,8 @@ void ToonzRasterBrushTool::leftButtonUp(const TPointD &pos,
 void ToonzRasterBrushTool::finishRasterBrush(const TPointD &pos,
                                              double pressureVal) {
   TToonzImageP ti = TImageP(getImage(true));
+
+  if (!ti) return;
 
   TPointD rasCenter         = ti->getRaster()->getCenterD();
   TTool::Application *app   = TTool::getApplication();
@@ -2093,9 +2098,10 @@ ToonzRasterBrushToolNotifier::ToonzRasterBrushToolNotifier(
       bool ret;
       ret = connect(paletteHandle, SIGNAL(colorStyleChanged(bool)), this,
                     SLOT(onColorStyleChanged()));
-      assert(ret);
-      ret = connect(paletteHandle, SIGNAL(colorStyleSwitched()), this,
-                    SLOT(onColorStyleChanged()));
+      ret = ret && connect(paletteHandle, SIGNAL(colorStyleSwitched()), this,
+                           SLOT(onColorStyleChanged()));
+      ret = ret && connect(paletteHandle, SIGNAL(paletteSwitched()), this,
+                           SLOT(onColorStyleChanged()));
       assert(ret);
     }
   }

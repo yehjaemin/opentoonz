@@ -96,7 +96,7 @@
     </message>
     <message>
         <source>Hardness:</source>
-        <translation>Dureza:</translation>
+        <translation type="vanished">Dureza:</translation>
     </message>
     <message>
         <source>Accuracy:</source>
@@ -144,7 +144,7 @@
     </message>
     <message>
         <source>Pencil</source>
-        <translation>Lápiz</translation>
+        <translation type="vanished">Lápiz</translation>
     </message>
     <message>
         <source>Pressure</source>
@@ -224,19 +224,19 @@
     </message>
     <message>
         <source>Draw Order:</source>
-        <translation>Orden:</translation>
+        <translation type="vanished">Orden:</translation>
     </message>
     <message>
         <source>Over All</source>
-        <translation>Por encima</translation>
+        <translation type="vanished">Por encima</translation>
     </message>
     <message>
         <source>Under All</source>
-        <translation>Por debajo</translation>
+        <translation type="vanished">Por debajo</translation>
     </message>
     <message>
         <source>Palette Order</source>
-        <translation>Según paleta</translation>
+        <translation type="vanished">Según paleta</translation>
     </message>
 </context>
 <context>
@@ -1341,6 +1341,33 @@ Do you want to proceed?</source>
         <source>Link</source>
         <translation>Vinculado</translation>
     </message>
+    <message>
+        <source>Scale</source>
+        <translation>Escala</translation>
+    </message>
+    <message>
+        <source>Position</source>
+        <translation>Posición</translation>
+    </message>
+</context>
+<context>
+    <name>ShiftTraceToolOptionBox</name>
+    <message>
+        <source>Reset Previous</source>
+        <translation>Restablecer anterior</translation>
+    </message>
+    <message>
+        <source>Reset Following</source>
+        <translation>Restablecer siguiente</translation>
+    </message>
+    <message>
+        <source>Previous Drawing</source>
+        <translation>Dibujo anterior</translation>
+    </message>
+    <message>
+        <source>Following Drawing</source>
+        <translation>Dibujo siguiente</translation>
+    </message>
 </context>
 <context>
     <name>SkeletonTool</name>
@@ -1419,6 +1446,53 @@ Do you want to proceed?</source>
 moved to the end of the first page of the palette.</source>
         <translation>Con esta opción activa, el estilo escogido será
 movido hacia el final de la primera página de la paleta.</translation>
+    </message>
+</context>
+<context>
+    <name>ToonzRasterBrushTool</name>
+    <message>
+        <source>Size</source>
+        <translation>Tamaño</translation>
+    </message>
+    <message>
+        <source>Hardness:</source>
+        <translation>Dureza:</translation>
+    </message>
+    <message>
+        <source>Smooth:</source>
+        <translation>Estabilidad:</translation>
+    </message>
+    <message>
+        <source>Draw Order:</source>
+        <translation>Orden:</translation>
+    </message>
+    <message>
+        <source>Over All</source>
+        <translation>Por encima</translation>
+    </message>
+    <message>
+        <source>Under All</source>
+        <translation>Por debajo</translation>
+    </message>
+    <message>
+        <source>Palette Order</source>
+        <translation>Según paleta</translation>
+    </message>
+    <message>
+        <source>Preset:</source>
+        <translation>Ajustes:</translation>
+    </message>
+    <message>
+        <source>&lt;custom&gt;</source>
+        <translation>&lt;personalizado&gt;</translation>
+    </message>
+    <message>
+        <source>Pencil</source>
+        <translation>Lápiz</translation>
+    </message>
+    <message>
+        <source>Pressure</source>
+        <translation>Presión</translation>
     </message>
 </context>
 <context>

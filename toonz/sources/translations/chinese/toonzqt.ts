@@ -262,7 +262,7 @@ Possibly the preset file has been corrupted</source>
     </message>
     <message>
         <source>&amp;Open Subxsheet</source>
-        <translation>打开子摄影表(&amp;O)</translation>
+        <translation type="vanished">打开子摄影表(&amp;O)</translation>
     </message>
 </context>
 <context>
@@ -523,7 +523,7 @@ Possibly the preset file has been corrupted</source>
     <name>FlipConsole</name>
     <message>
         <source> FPS </source>
-        <translation>FPS</translation>
+        <translation> FPS </translation>
     </message>
     <message>
         <source>Save</source>
@@ -700,6 +700,17 @@ Possibly the preset file has been corrupted</source>
     <message>
         <source>&amp;Locator</source>
         <translation>定位器(&amp;L)</translation>
+    </message>
+</context>
+<context>
+    <name>FontParamField</name>
+    <message>
+        <source>Style:</source>
+        <translation>样式:</translation>
+    </message>
+    <message>
+        <source>Size:</source>
+        <translation>大小:</translation>
     </message>
 </context>
 <context>
@@ -1092,7 +1103,7 @@ Possibly the preset file has been corrupted</source>
     </message>
     <message>
         <source>&amp;Open Subxsheet</source>
-        <translation>打开子摄影表(&amp;O)</translation>
+        <translation type="vanished">打开子摄影表(&amp;O)</translation>
     </message>
     <message>
         <source>&amp;Uncache Fx</source>
@@ -1212,6 +1223,13 @@ Possibly the preset file has been corrupted</source>
     </message>
 </context>
 <context>
+    <name>FxSchematicOutputNode</name>
+    <message>
+        <source>Output</source>
+        <translation>输出</translation>
+    </message>
+</context>
+<context>
     <name>FxSchematicPort</name>
     <message>
         <source>&amp;Disconnect from Xsheet</source>
@@ -1241,6 +1259,13 @@ Select FX nodes and related links before copying or cutting the selection you wa
 Select FX nodes and related links before copying or cutting the selection you want to paste.</source>
         <translation>无法“粘贴替换”多个未连接的特效节点。
 请在拷贝或剪切选区之前，选择特效节点和它的关联链接。</translation>
+    </message>
+</context>
+<context>
+    <name>FxSchematicXSheetNode</name>
+    <message>
+        <source>XSheet</source>
+        <translation>摄影表</translation>
     </message>
 </context>
 <context>
@@ -1469,7 +1494,7 @@ Select FX nodes and related links before copying or cutting the selection you wa
     </message>
     <message>
         <source>Level Palette: </source>
-        <translation>层级调色板:</translation>
+        <translation>层级调色板: </translation>
     </message>
     <message>
         <source>Cleanup Palette</source>
@@ -1657,7 +1682,8 @@ Select FX nodes and related links before copying or cutting the selection you wa
     <message>
         <source>Styles you are going to delete are used to paint lines and areas in the animation level.
 </source>
-        <translation>您要删除的样式已经用于动画层级的线和区域。</translation>
+        <translation>您要删除的样式已经用于绘制动画层级的线和区域。
+</translation>
     </message>
     <message>
         <source>How do you want to proceed?</source>
@@ -1761,75 +1787,75 @@ Select FX nodes and related links before copying or cutting the selection you wa
     </message>
     <message>
         <source>Fullpath:     </source>
-        <translation>完整路径:</translation>
+        <translation>完整路径:     </translation>
     </message>
     <message>
         <source>File Type:    </source>
-        <translation>文件类型:</translation>
+        <translation>文件类型:    </translation>
     </message>
     <message>
         <source>Frames:       </source>
-        <translation>帧:</translation>
+        <translation>帧:       </translation>
     </message>
     <message>
         <source>Owner:        </source>
-        <translation>所有者:</translation>
+        <translation>所有者:        </translation>
     </message>
     <message>
         <source>Size:         </source>
-        <translation>大小:</translation>
+        <translation>大小:         </translation>
     </message>
     <message>
         <source>Created:      </source>
-        <translation>创建于:</translation>
+        <translation>创建于:      </translation>
     </message>
     <message>
         <source>Modified:     </source>
-        <translation>修改于:</translation>
+        <translation>修改于:     </translation>
     </message>
     <message>
         <source>Last Access:  </source>
-        <translation>最近访问于:</translation>
+        <translation>最近访问于:  </translation>
     </message>
     <message>
         <source>Image Size:   </source>
-        <translation>图像大小:</translation>
+        <translation>图像大小:   </translation>
     </message>
     <message>
         <source>SaveBox:      </source>
-        <translation>保存框:</translation>
+        <translation>保存框:      </translation>
     </message>
     <message>
         <source>Bits/Sample:  </source>
-        <translation>色深:</translation>
+        <translation>色深:  </translation>
     </message>
     <message>
         <source>Sample/Pixel: </source>
-        <translation>通道数量:</translation>
+        <translation>通道数量: </translation>
     </message>
     <message>
         <source>Dpi:          </source>
-        <translation>DPI:</translation>
+        <translation>DPI:          </translation>
     </message>
     <message>
         <source>Orientation:  </source>
-        <translation>方向:</translation>
+        <translation>方向:  </translation>
     </message>
     <message>
         <source>Compression:  </source>
-        <translation>压缩:</translation>
+        <translation>压缩:  </translation>
     </message>
     <message>
         <source>Quality:      </source>
-        <translation>画质:</translation>
+        <translation>画质:      </translation>
     </message>
     <message>
         <source>Smoothing:    </source>
-        <translation>平滑:</translation>
+        <translation>平滑:    </translation>
     </message>
     <message>
         <source>Codec:        </source>
-        <translation>编码器:</translation>
+        <translation>编码器:        </translation>
     </message>
     <message>
         <source>Alpha Channel:</source>
@@ -1853,27 +1879,27 @@ Select FX nodes and related links before copying or cutting the selection you wa
     </message>
     <message>
         <source>Camera Size:      </source>
-        <translation>摄影机大小:</translation>
+        <translation>摄影机大小:      </translation>
     </message>
     <message>
         <source>Camera Dpi:       </source>
-        <translation>摄影机 DPI:</translation>
+        <translation>摄影机 DPI:       </translation>
     </message>
     <message>
         <source>Number of Frames: </source>
-        <translation>帧数:</translation>
+        <translation>帧数: </translation>
     </message>
     <message>
         <source>Number of Levels: </source>
-        <translation>层级数:</translation>
+        <translation>层级数: </translation>
     </message>
     <message>
         <source>Output Path:      </source>
-        <translation>输出路径:</translation>
+        <translation>输出路径:      </translation>
     </message>
     <message>
         <source>Endianess:      </source>
-        <translation>字节次序:</translation>
+        <translation>字节次序:      </translation>
     </message>
     <message>
         <source>It is not possible to delete the style #</source>
@@ -1897,19 +1923,19 @@ Select FX nodes and related links before copying or cutting the selection you wa
     </message>
     <message>
         <source>Length:       </source>
-        <translation>长度:</translation>
+        <translation>长度:       </translation>
     </message>
     <message>
         <source>Channels: </source>
-        <translation>通道:</translation>
+        <translation>通道: </translation>
     </message>
     <message>
         <source>Sample Rate: </source>
-        <translation>采样率:</translation>
+        <translation>采样率: </translation>
     </message>
     <message>
         <source>Sample Size:      </source>
-        <translation>采样大小:</translation>
+        <translation>采样大小:      </translation>
     </message>
     <message>
         <source>The file %1 does not exist.</source>
@@ -2235,6 +2261,10 @@ The second line should be &quot;Mesh [Input bit depth] [Output bit depth]&quot;<
         <source>&amp;Swtich output port display mode</source>
         <translation>切换输出端口显示模式(&amp;S)</translation>
     </message>
+    <message>
+        <source>&amp;Toggle node icons</source>
+        <translation>开关节点图标(&amp;T)</translation>
+    </message>
 </context>
 <context>
     <name>SchematicWindowEditor</name>
@@ -2515,11 +2545,11 @@ Apply</source>
     </message>
     <message>
         <source>Generated</source>
-        <translation>已生成</translation>
+        <translation type="unfinished">已生成的</translation>
     </message>
     <message>
         <source>Trail</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">轨迹</translation>
     </message>
     <message>
         <source>Color</source>

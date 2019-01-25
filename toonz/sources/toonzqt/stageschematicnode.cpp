@@ -26,7 +26,6 @@
 #include "toonz/txshchildlevel.h"
 #include "toonz/txshlevelcolumn.h"
 #include "toonz/txshleveltypes.h"
-#include "toonz/txshleveltypes.h"
 #include "toonz/tcolumnhandle.h"
 #include "toonz/hook.h"
 #include "toonz/preferences.h"
@@ -1893,6 +1892,7 @@ void StageSchematicColumnNode::onChangedSize(bool expand) {
   updatePortsPosition();
   updateLinksGeometry();
   update();
+  emit nodeChangedSize();
 }
 
 //--------------------------------------------------------
