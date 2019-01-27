@@ -96,7 +96,7 @@
     </message>
     <message>
         <source>Hardness:</source>
-        <translation>硬度:</translation>
+        <translation type="vanished">硬度:</translation>
     </message>
     <message>
         <source>Accuracy:</source>
@@ -144,7 +144,7 @@
     </message>
     <message>
         <source>Pencil</source>
-        <translation>铅笔</translation>
+        <translation type="vanished">铅笔</translation>
     </message>
     <message>
         <source>Pressure</source>
@@ -224,19 +224,19 @@
     </message>
     <message>
         <source>Draw Order:</source>
-        <translation>绘制顺序:</translation>
+        <translation type="vanished">绘制顺序:</translation>
     </message>
     <message>
         <source>Over All</source>
-        <translation>在最上</translation>
+        <translation type="vanished">在最上</translation>
     </message>
     <message>
         <source>Under All</source>
-        <translation>在最下</translation>
+        <translation type="vanished">在最下</translation>
     </message>
     <message>
         <source>Palette Order</source>
-        <translation>按调色板顺序</translation>
+        <translation type="vanished">按调色板顺序</translation>
     </message>
 </context>
 <context>
@@ -1206,7 +1206,7 @@ Do you want to proceed?</source>
     </message>
     <message>
         <source>Modify Savebox</source>
-        <translation type="unfinished">修改保险框</translation>
+        <translation>修改保险框</translation>
     </message>
 </context>
 <context>
@@ -1345,6 +1345,33 @@ Do you want to proceed?</source>
         <source>Link</source>
         <translation>保持长宽比</translation>
     </message>
+    <message>
+        <source>Scale</source>
+        <translation>缩放</translation>
+    </message>
+    <message>
+        <source>Position</source>
+        <translation>位置</translation>
+    </message>
+</context>
+<context>
+    <name>ShiftTraceToolOptionBox</name>
+    <message>
+        <source>Reset Previous</source>
+        <translation>重置前面的</translation>
+    </message>
+    <message>
+        <source>Reset Following</source>
+        <translation>重置后面的</translation>
+    </message>
+    <message>
+        <source>Previous Drawing</source>
+        <translation>前面的绘图</translation>
+    </message>
+    <message>
+        <source>Following Drawing</source>
+        <translation>后面的绘图</translation>
+    </message>
 </context>
 <context>
     <name>SkeletonTool</name>
@@ -1422,6 +1449,53 @@ Do you want to proceed?</source>
         <source>With this option being activated, the picked style will be
 moved to the end of the first page of the palette.</source>
         <translation>打开这个选项，选中的样式将被移到色板第一页的最后。</translation>
+    </message>
+</context>
+<context>
+    <name>ToonzRasterBrushTool</name>
+    <message>
+        <source>Size</source>
+        <translation>大小</translation>
+    </message>
+    <message>
+        <source>Hardness:</source>
+        <translation>硬度:</translation>
+    </message>
+    <message>
+        <source>Smooth:</source>
+        <translation>平滑:</translation>
+    </message>
+    <message>
+        <source>Draw Order:</source>
+        <translation>绘制顺序:</translation>
+    </message>
+    <message>
+        <source>Over All</source>
+        <translation>在最上</translation>
+    </message>
+    <message>
+        <source>Under All</source>
+        <translation>在最下</translation>
+    </message>
+    <message>
+        <source>Palette Order</source>
+        <translation>按调色板顺序</translation>
+    </message>
+    <message>
+        <source>Preset:</source>
+        <translation>预设:</translation>
+    </message>
+    <message>
+        <source>&lt;custom&gt;</source>
+        <translation>&lt;定制&gt;</translation>
+    </message>
+    <message>
+        <source>Pencil</source>
+        <translation>铅笔</translation>
+    </message>
+    <message>
+        <source>Pressure</source>
+        <translation>压感</translation>
     </message>
 </context>
 <context>
