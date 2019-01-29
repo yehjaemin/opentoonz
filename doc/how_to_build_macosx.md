@@ -34,8 +34,8 @@ Or, you should build and install them manually.
 
 ```
 $ git clone https://github.com/opentoonz/opentoonz
-cd opentoonz
-git lfs pull
+$ cd opentoonz
+$ git lfs pull
 ```
 
 ### (Optional) Create the stuff Directory
