@@ -43,7 +43,7 @@ $ git lfs pull
 If the directory `/Applications/OpenToonz/OpenToonz_stuff` does not exist, enter the following command:
 
 ```
-$ sudo cp -r stuff /Applications/OpenToonz/OpenToonz_stuff
+$ sudo cp -pr stuff /Applications/OpenToonz/OpenToonz_stuff
 ```
 
 ### 3. Build tiff in thirdparty
