@@ -53,7 +53,7 @@ $ cd thirdparty/tiff-4.0.3
 $ ./configure && make
 ```
 
-### 4. Put Boost library into thirdpaty directory
+### 4. Put Boost library into thirdparty directory
 The following assumes `boost_1_55_0.tar.bz2` was downloaded to `~/Downloads`.
 
 ```
