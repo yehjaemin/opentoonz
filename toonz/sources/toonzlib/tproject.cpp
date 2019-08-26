@@ -160,7 +160,15 @@ TFilePath searchProjectPath(TFilePath folder) {
 
 bool isFolderUnderVersionControl(const TFilePath &folderPath) {
   QDir dir(QString::fromStdWString(folderPath.getWideString()));
-  return dir.entryList(QDir::AllDirs | QDir::Hidden).contains(".svn");
+  if (dir.entryList(QDir::AllDirs | QDir::Hidden).contains(".svn")) return true;
+  // For SVN 1.7 and greater, check parent directories to see if it's under
+  // version control
+  while (dir.cdUp()) {
+    if (dir.entryList(QDir::AllDirs | QDir::Hidden).contains(".svn"))
+      return true;
+  }
+
+  return false;
 }
 
 //===================================================================
@@ -885,8 +893,7 @@ void TProjectManager::getFolderNames(std::vector<std::string> &names) {
   const std::string stdNames[] = {TProject::Inputs,  TProject::Drawings,
                                   TProject::Scenes,  TProject::Extras,
                                   TProject::Outputs, TProject::Scripts};
-  for (int i = 0; i < (int)tArrayCount(stdNames); i++) {
-    string name = stdNames[i];
+  for (auto const &name : stdNames) {
     // se il nome non e' gia' stato inserito lo aggiungo
     if (std::find(names.begin(), names.end(), name) == names.end())
       names.push_back(name);
@@ -919,7 +926,7 @@ TFilePath TProjectManager::getCurrentProjectPath() {
   }
   fp = searchProjectPath(fp.getParentDir());
   if (!TFileStatus(fp).doesExist())
-    fp     = projectNameToProjectPath(TProject::SandboxProjectName);
+    fp = projectNameToProjectPath(TProject::SandboxProjectName);
   fp       = getLatestVersionProjectPath(fp);
   string s = ::to_string(fp);
   if (s != (string)currentProjectPath) currentProjectPath = s;
